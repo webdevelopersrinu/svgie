@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+.card{
+    width: 300px;
+    background: black;
+    padding: 16px;
+    border-radius: 5px;
+    transform: rotate(5deg);
+    box-shadow: 0 0 15px white;
+    overflow: hidden;
+}
+.card .login-section span{
+    color: white;
+}
+.card .login-head h3{
+    color: white;
+   
+    text-transform: capitalize;
+    padding: 9px 0;
+}
+.card .login-section{
+    padding: 5px 10px;
+}
+.card .login-section input{
+    background: black;
+    border: none;
+    padding: 3px 8px;
+    border-bottom: 2px solid white;
+    width: 100%;
+    margin: 12px 3px;
+    text-transform: capitalize;
+    outline: none;
+    color: white;
+}
+.card .login-section input:hover{
+    border-bottom: none;
+}
+.login-section .login-filed{
+    display: flex;
+    align-items: center;
+}
+.card .login-action{
+    display: flex;
+    justify-content: flex-end;
+    padding: 7px 8px;
+}
+.card .login-action button{
+    color: white;
+    background: rgb(12, 238, 23);
+    padding: 3px 20px;
+    text-transform: capitalize;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.card .login-action button:hover{
+    scale: 1.2;
+}
+.card .login-action button:active{
+    scale: 0.8;
+}
+.card .line{
+    width: 200px;
+    height: 19px;
+    background: white;
+    transform: rotate(23deg);
+    margin-left: -35px;
+    
+}

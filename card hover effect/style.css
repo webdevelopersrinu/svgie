@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 300px;
+    margin: 25px;
+    box-shadow: 0 0 5px rgb(36, 216, 90);
+    border-radius: 7px;
+    position: relative;
+}
+.img-section{
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+.details-section{
+    padding: 6px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:rgba(225, 225,225, 0.5);
+    opacity: 0;
+    transition: 0.5s;
+}
+.details-section .details-text{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 9px 0;
+}
+.details-section .reting i{
+    color: rgb(188, 183, 48);
+}
+.details-section .reting span{
+    font-weight: bold;
+}
+.details-section .price {
+    padding: 3px 0;
+    font-weight: bold;
+    
+}
+.details-section .price span{
+    padding-left:9px ;
+}
+.img-section:hover~.details-section{
+    opacity: 1;
+}
+
+
+

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    margin: 25px;
+    width: 250px;
+    box-shadow: 0 0 8px rgb(137, 227, 98);
+    border-radius: 5px;
+
+}
+.img-div{
+    width: 100%;
+    padding: 4px;
+    position: relative;
+}
+.img-div img{
+    padding: 8px;
+    border-radius: 8px;
+}
+.img-div span{
+    position: absolute;
+    background-color: rgb(102, 227, 48);
+    padding: 3px 15px;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.details-div{
+    padding: 8px;
+}
+.details-div .details-text{
+    font-weight: 800;
+    font-size: 15px;
+    padding: 6px 0;
+}
+.details-div .reting i{
+    color: rgb(193, 218, 30);
+}
+.details-div .reting span{
+    font-weight: bold;
+}
+.details-div .price{
+    padding: 5px 0;
+}
+.details-div .price del{
+    font-weight: bold;
+    padding: 8px 0;
+}
+.details-div .price span{
+    font-size: large;
+    font-weight: bold;
+    padding-left: 5px;
+
+}

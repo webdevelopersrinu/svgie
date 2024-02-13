@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: url(img/background-image.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 500px;
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 23px 12px;
+   
+}
+.card .img-section img{
+    width: 300px;
+}
+.card .login-section{
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+    background: white;
+    width: 250px;
+    padding: 15px;
+    margin-right: -146px;
+}
+.card .login-section div{
+    padding: 5px;
+    font-weight: bold;
+}
+.card .login-section div label,input{
+    margin: 3px 0;
+}
+.card .login-section input{
+    padding-left: 5px;
+    margin: 4px;
+    padding: 4px;
+    border: 1px soli gray;
+    border-radius: 3px;
+    outline: none;
+}
+.card .login-section input:focus{
+    outline: 2px solid rgb(93, 241, 52);
+    border: none;
+}
+.card .login-section .login-check{
+    display: flex;
+    align-items: center;
+}
+.card .login-section .login-acction button{
+    color: white;
+    background: rgb(36, 236, 46);
+    padding: 7px 14px;
+    border: none;
+    border-radius: 4px;
+    transition: 0.5s;
+
+
+}
+.card .login-section .login-acction button:hover{
+    transform: scale(0.8);
+}
