@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+.head,nav{
+    border-bottom: 2px solid gray;
+    padding: 6px 4px;
+}
+nav span{
+    margin-left: 5px;   
+}
+nav span:first-child{
+    border-bottom: 3px solid grey;
+}
+nav{
+    padding: 5px 2px;
+}
+.img-section{
+    float: right;
+    border: 2px solid black;
+    margin: 5px;
+}
+.text-section P{
+    margin: 5PX; 
+    padding-bottom: 9PX;
+}
+
+
